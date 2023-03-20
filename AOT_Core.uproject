@@ -9,7 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"GameplayAbilities"
 			]
 		}
 	],
@@ -157,12 +158,31 @@
 		{
 			"Name": "VRIKBody",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c7314be54a7d49939c2dabc13fe1ffff",
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c7314be54a7d49939c2dabc13fe1ffff"
+		},
+		{
+			"Name": "OpenVRExpansionPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "VRExpansionPlugin",
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
+				"Linux",
 				"Android",
-				"Linux"
+				"HoloLens"
 			]
+		},
+		{
+			"Name": "ModularFeatures_ExtraActions",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a718e1ae4fa741869b8f7aaea1434a8d"
+		},
+		{
+			"Name": "GestureTrackerVR",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/378f739f054340899db2569090222fd3"
 		}
 	],
 	"TargetPlatforms": [
