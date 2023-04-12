@@ -73,14 +73,6 @@
 			]
 		},
 		{
-			"Name": "OculusVR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
 			"Name": "SimpleHMD",
 			"Enabled": true
 		},
@@ -157,7 +149,7 @@
 		},
 		{
 			"Name": "VRIKBody",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c7314be54a7d49939c2dabc13fe1ffff"
 		},
 		{
@@ -181,7 +173,7 @@
 		},
 		{
 			"Name": "GestureTrackerVR",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/378f739f054340899db2569090222fd3"
 		}
 	],
